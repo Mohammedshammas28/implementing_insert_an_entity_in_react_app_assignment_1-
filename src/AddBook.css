@@ -1,0 +1,32 @@
+.add-book-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .add-book-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-book-container input,
+  .add-book-container textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-book-container button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-book-container button:hover {
+    background-color: #218838;
+  }
+  
